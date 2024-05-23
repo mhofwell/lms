@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { SubmitButton } from './submit-button';
-import signUp from '@/utils/auth/signUp';
-import signIn from '@/utils/auth/signIn';
+import { SubmitButton } from '../../components/SubmitButton';
+import signUp from '@/lib/actions/auth/signUp';
+import signIn from '@/lib/actions/auth/signIn';
 
 export default async function Login({
     searchParams,
