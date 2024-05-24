@@ -9,7 +9,7 @@ ARG DIRECT_URL
 
 WORKDIR /app
 
-COPY next.config.mjs package*.json ./
+COPY next.config.js package*.json ./
 
 RUN npm ci --omit=dev
 
