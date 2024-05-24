@@ -16,5 +16,5 @@ export default async function signIn(formData: FormData) {
         return redirect('/login?message=Could not authenticate user');
     }
 
-    return redirect('/protected');
+    return redirect('/home');
 }
